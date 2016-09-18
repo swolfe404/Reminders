@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		950F96811D594B8E0043A419 /* ClockTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950F96801D594B8E0043A419 /* ClockTabBarController.swift */; };
+		950F96831D594C6F0043A419 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950F96821D594C6F0043A419 /* AlarmViewController.swift */; };
+		950F96851D594E8F0043A419 /* StopWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950F96841D594E8F0043A419 /* StopWatchViewController.swift */; };
+		9534D7FD1D5CE93E00DB0B0E /* TimerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9534D7FC1D5CE93E00DB0B0E /* TimerTableViewController.swift */; };
+		9534D8031D5D2F8B00DB0B0E /* AlarmTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9534D8021D5D2F8B00DB0B0E /* AlarmTableViewController.swift */; };
+		9534D8051D5D2FC000DB0B0E /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9534D8041D5D2FC000DB0B0E /* AlarmTableViewCell.swift */; };
+		9571683D1D8DCD3900E34DBD /* Beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9571683C1D8DCD3900E34DBD /* Beep.wav */; };
+		958EBB4C1D5E55E60012C2AF /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958EBB4B1D5E55E60012C2AF /* TimerViewController.swift */; };
+		95A8B7941D58F9730061319B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A8B7931D58F9730061319B /* AppDelegate.swift */; };
+		95A8B7961D58F9730061319B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A8B7951D58F9730061319B /* ViewController.swift */; };
+		95A8B7991D58F9730061319B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A8B7971D58F9730061319B /* Main.storyboard */; };
+		95A8B79B1D58F9730061319B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A8B79A1D58F9730061319B /* Assets.xcassets */; };
+		95A8B79E1D58F9730061319B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A8B79C1D58F9730061319B /* LaunchScreen.storyboard */; };
+		95FD4EE11D5F75F200DD7B9A /* TimerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FD4EE01D5F75F200DD7B9A /* TimerTableViewCell.swift */; };
+		95FD4EE31D5FE8B600DD7B9A /* AlarmOffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FD4EE21D5FE8B600DD7B9A /* AlarmOffViewController.swift */; };
+		95FD4EE51D60058C00DD7B9A /* AlarmCellTappedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FD4EE41D60058C00DD7B9A /* AlarmCellTappedViewController.swift */; };
+		95FD4EE71D6005BA00DD7B9A /* TimerCellTappedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FD4EE61D6005BA00DD7B9A /* TimerCellTappedViewController.swift */; };
+		95FD4EE91D6005DF00DD7B9A /* TimerOffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FD4EE81D6005DF00DD7B9A /* TimerOffViewController.swift */; };
+		95FD4EEB1D61430A00DD7B9A /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FD4EEA1D61430A00DD7B9A /* Timer.swift */; };
+		95FD4EED1D62470700DD7B9A /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FD4EEC1D62470700DD7B9A /* Alarm.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		950F96801D594B8E0043A419 /* ClockTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockTabBarController.swift; sourceTree = "<group>"; };
+		950F96821D594C6F0043A419 /* AlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		950F96841D594E8F0043A419 /* StopWatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopWatchViewController.swift; sourceTree = "<group>"; };
+		9534D7FC1D5CE93E00DB0B0E /* TimerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerTableViewController.swift; sourceTree = "<group>"; };
+		9534D8021D5D2F8B00DB0B0E /* AlarmTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmTableViewController.swift; sourceTree = "<group>"; };
+		9534D8041D5D2FC000DB0B0E /* AlarmTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmTableViewCell.swift; sourceTree = "<group>"; };
+		9571683C1D8DCD3900E34DBD /* Beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Beep.wav; path = Sounds/Beep.wav; sourceTree = "<group>"; };
+		958EBB4B1D5E55E60012C2AF /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		95A8B7901D58F9730061319B /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A8B7931D58F9730061319B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95A8B7951D58F9730061319B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95A8B7981D58F9730061319B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95A8B79A1D58F9730061319B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95A8B79D1D58F9730061319B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95A8B79F1D58F9730061319B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95FD4EE01D5F75F200DD7B9A /* TimerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerTableViewCell.swift; sourceTree = "<group>"; };
+		95FD4EE21D5FE8B600DD7B9A /* AlarmOffViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmOffViewController.swift; sourceTree = "<group>"; };
+		95FD4EE41D60058C00DD7B9A /* AlarmCellTappedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlarmCellTappedViewController.swift; path = ../AlarmCellTappedViewController.swift; sourceTree = "<group>"; };
+		95FD4EE61D6005BA00DD7B9A /* TimerCellTappedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerCellTappedViewController.swift; sourceTree = "<group>"; };
+		95FD4EE81D6005DF00DD7B9A /* TimerOffViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerOffViewController.swift; sourceTree = "<group>"; };
+		95FD4EEA1D61430A00DD7B9A /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		95FD4EEC1D62470700DD7B9A /* Alarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95A8B78D1D58F9730061319B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95A8B7871D58F9730061319B = {
+			isa = PBXGroup;
+			children = (
+				95A8B7921D58F9730061319B /* Clock */,
+				95A8B7911D58F9730061319B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95A8B7911D58F9730061319B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95A8B7901D58F9730061319B /* Clock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95A8B7921D58F9730061319B /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				95FD4EDF1D5F6B3400DD7B9A /* Clock */,
+				95FD4EDE1D5F6B2800DD7B9A /* StopWatch */,
+				95FD4EDD1D5F6B0E00DD7B9A /* Alarm */,
+				95FD4EDC1D5F6B0900DD7B9A /* Timer */,
+				95A8B7931D58F9730061319B /* AppDelegate.swift */,
+				9571683C1D8DCD3900E34DBD /* Beep.wav */,
+				95A8B7951D58F9730061319B /* ViewController.swift */,
+				95A8B79A1D58F9730061319B /* Assets.xcassets */,
+				95A8B7971D58F9730061319B /* Main.storyboard */,
+				95A8B79C1D58F9730061319B /* LaunchScreen.storyboard */,
+				95A8B79F1D58F9730061319B /* Info.plist */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		95FD4EDC1D5F6B0900DD7B9A /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				95FD4EE81D6005DF00DD7B9A /* TimerOffViewController.swift */,
+				95FD4EE61D6005BA00DD7B9A /* TimerCellTappedViewController.swift */,
+				958EBB4B1D5E55E60012C2AF /* TimerViewController.swift */,
+				95FD4EE01D5F75F200DD7B9A /* TimerTableViewCell.swift */,
+				9534D7FC1D5CE93E00DB0B0E /* TimerTableViewController.swift */,
+				95FD4EEA1D61430A00DD7B9A /* Timer.swift */,
+			);
+			name = Timer;
+			sourceTree = "<group>";
+		};
+		95FD4EDD1D5F6B0E00DD7B9A /* Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				95FD4EE41D60058C00DD7B9A /* AlarmCellTappedViewController.swift */,
+				950F96821D594C6F0043A419 /* AlarmViewController.swift */,
+				9534D8041D5D2FC000DB0B0E /* AlarmTableViewCell.swift */,
+				95FD4EE21D5FE8B600DD7B9A /* AlarmOffViewController.swift */,
+				9534D8021D5D2F8B00DB0B0E /* AlarmTableViewController.swift */,
+				95FD4EEC1D62470700DD7B9A /* Alarm.swift */,
+			);
+			name = Alarm;
+			sourceTree = "<group>";
+		};
+		95FD4EDE1D5F6B2800DD7B9A /* StopWatch */ = {
+			isa = PBXGroup;
+			children = (
+				950F96841D594E8F0043A419 /* StopWatchViewController.swift */,
+			);
+			name = StopWatch;
+			sourceTree = "<group>";
+		};
+		95FD4EDF1D5F6B3400DD7B9A /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				950F96801D594B8E0043A419 /* ClockTabBarController.swift */,
+			);
+			name = Clock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95A8B78F1D58F9730061319B /* Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A8B7A21D58F9730061319B /* Build configuration list for PBXNativeTarget "Clock" */;
+			buildPhases = (
+				95A8B78C1D58F9730061319B /* Sources */,
+				95A8B78D1D58F9730061319B /* Frameworks */,
+				95A8B78E1D58F9730061319B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clock;
+			productName = Clock;
+			productReference = 95A8B7901D58F9730061319B /* Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95A8B7881D58F9730061319B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dennis Wolfe";
+				TargetAttributes = {
+					95A8B78F1D58F9730061319B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UEWNFPSFSJ;
+					};
+				};
+			};
+			buildConfigurationList = 95A8B78B1D58F9730061319B /* Build configuration list for PBXProject "Clock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95A8B7871D58F9730061319B;
+			productRefGroup = 95A8B7911D58F9730061319B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95A8B78F1D58F9730061319B /* Clock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95A8B78E1D58F9730061319B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A8B79E1D58F9730061319B /* LaunchScreen.storyboard in Resources */,
+				9571683D1D8DCD3900E34DBD /* Beep.wav in Resources */,
+				95A8B79B1D58F9730061319B /* Assets.xcassets in Resources */,
+				95A8B7991D58F9730061319B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95A8B78C1D58F9730061319B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FD4EE51D60058C00DD7B9A /* AlarmCellTappedViewController.swift in Sources */,
+				958EBB4C1D5E55E60012C2AF /* TimerViewController.swift in Sources */,
+				950F96831D594C6F0043A419 /* AlarmViewController.swift in Sources */,
+				95FD4EED1D62470700DD7B9A /* Alarm.swift in Sources */,
+				95FD4EEB1D61430A00DD7B9A /* Timer.swift in Sources */,
+				95A8B7961D58F9730061319B /* ViewController.swift in Sources */,
+				95A8B7941D58F9730061319B /* AppDelegate.swift in Sources */,
+				95FD4EE71D6005BA00DD7B9A /* TimerCellTappedViewController.swift in Sources */,
+				9534D7FD1D5CE93E00DB0B0E /* TimerTableViewController.swift in Sources */,
+				9534D8031D5D2F8B00DB0B0E /* AlarmTableViewController.swift in Sources */,
+				95FD4EE91D6005DF00DD7B9A /* TimerOffViewController.swift in Sources */,
+				950F96811D594B8E0043A419 /* ClockTabBarController.swift in Sources */,
+				95FD4EE11D5F75F200DD7B9A /* TimerTableViewCell.swift in Sources */,
+				950F96851D594E8F0043A419 /* StopWatchViewController.swift in Sources */,
+				95FD4EE31D5FE8B600DD7B9A /* AlarmOffViewController.swift in Sources */,
+				9534D8051D5D2FC000DB0B0E /* AlarmTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95A8B7971D58F9730061319B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95A8B7981D58F9730061319B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95A8B79C1D58F9730061319B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95A8B79D1D58F9730061319B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95A8B7A01D58F9730061319B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95A8B7A11D58F9730061319B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95A8B7A31D58F9730061319B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Clock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teemtema.Clock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95A8B7A41D58F9730061319B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Clock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teemtema.Clock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95A8B78B1D58F9730061319B /* Build configuration list for PBXProject "Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A8B7A01D58F9730061319B /* Debug */,
+				95A8B7A11D58F9730061319B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A8B7A21D58F9730061319B /* Build configuration list for PBXNativeTarget "Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A8B7A31D58F9730061319B /* Debug */,
+				95A8B7A41D58F9730061319B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95A8B7881D58F9730061319B /* Project object */;
+}
